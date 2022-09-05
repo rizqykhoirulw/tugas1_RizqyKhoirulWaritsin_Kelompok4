@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form{
+            width: 30%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 2px grey;
+            margin: 10px auto;
+        }
+        table{
+            margin: auto;
+        }
+        h3{
+            margin-top: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form action="" method="get">
+        <h3 style="font-family: Arial;" align="center">Form Pembelian</h3>
+        <table cellpadding="10px">
+            <tr>
+                <td align="right"> <label for="produk"> Nama Produk:</label></td>
+                <td> <input type="text" name="produk"></td>
+            </tr>
+            <tr>
+                <td align="right"> <label for="Jumlah"> Jumlah yang dibeli:</label></td>
+                <td> <input type="text" name="Jumlah"></td>
+            </tr>
+            <tr>
+                <td align="right"> <label for="Jumlah"> Uang Pembeli:</label></td>
+                <td> <input type="text" name="Jumlah"></td>
+            </tr>
+            <tr>
+                <td align="right" valign="top"> Komentar untuk Produk:</td>
+                <td> <textarea name="komentar" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"> 
+                    <input type="submit" name="kirim" value="Kirim">
+                    <input type="reset" name="batal" value="Batalkan">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>
