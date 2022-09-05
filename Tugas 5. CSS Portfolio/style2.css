@@ -1,0 +1,39 @@
+body{
+    background-color: #f6fbfe;
+    font-family: Arial;
+}
+
+h2{
+    text-align: center;
+}
+
+fieldset{
+    text-align: center;
+    width: 450px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+img{
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+}
+
+table{
+    margin: 5px 15%;
+    width: 500px;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    text-align: left;
+}
+
+p{
+    padding: 3px 50px 50px; 
+    text-align: center;
+}
